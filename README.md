@@ -41,11 +41,34 @@ Berikut adalah jumlah prefix yang diperlukan
 | /30 | 9 |
 | Total | 18 |
 
-Jumlah host total: `2618` dengan prefix: `/20`
+Jumlah host total: `2618` dengan netmask: `/20`
 
 ## VLSM
 
 ## CIDR
+
+Berikut adalah langkah langkah yang dilakukan dalam mengkombinasikan subnet untuk CIDR:
+
+1. ![CIDR Step 1](images/CIDR%20Step%201.png)
+2. ![CIDR Step 2](images/CIDR%20Step%202.png)
+3. ![CIDR Step 3](images/CIDR%20Step%203.png)
+4. ![CIDR Step 4](images/CIDR%20Step%204.png)
+5. ![CIDR Step 5](images/CIDR%20Step%205.png)
+6. ![CIDR Step 6](images/CIDR%20Step%206.png)
+7. ![CIDR Step 7](images/CIDR%20Step%207.png)
+8. ![CIDR Step 8](images/CIDR%20Step%208.png)
+
+Berikut adalah tabel kesimpulan untuk kombinasi-kombinasi CIDR yang telah dilakukan.
+
+![Kombinasi CIDR](images/Kombinasi%20CIDR.png)
+
+Oleh karena itu, pohon CIDR dimulai dengan netmask `/16`. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
+
+![Pohon CIDR](images/Pohon%20CIDR.png)
+
+Setelah pohon tersebut sudah diselesaikan, dibuat tabel subnetting CIDR, yaitu:
+
+![Subnet CIDR](images/Subnet%20CIDR.png)
 
 ## Setting Cisco
 
