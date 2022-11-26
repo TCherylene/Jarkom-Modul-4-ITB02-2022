@@ -29,6 +29,20 @@ Berikut adalah jumlah kebutuhan IP yang diperlukan dalam topologi yang telah dib
 
 ![jumlah IP](images/jumlah%20IP.png)
 
+Berikut adalah jumlah prefix yang diperlukan
+
+| Mask | Jumlah |
+| --- | --- |
+| /22 | 1 |
+| /23 | 2 |
+| /24 | 2 |
+| /25 | 3 |
+| /26 | 1 |
+| /30 | 9 |
+| Total | 18 |
+
+Jumlah host total: `2618` dengan prefix: `/20`
+
 ## VLSM
 
 ## CIDR
