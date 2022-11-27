@@ -45,6 +45,14 @@ Jumlah host total: `2618` dengan netmask: `/20`
 
 ## VLSM
 
+Pertama, buat pohon pembagian ip sebagai berikut
+
+![pohon vslm](https://media.discordapp.net/attachments/784788848492150845/1046339490345648168/VLSM.png?width=1024&height=465)
+
+daripohon tersebut, bisa dibuattabel perhitungan VLSM dari pohon yang sudah dipaparkan
+![tabel vlsm](https://media.discordapp.net/attachments/784788848492150845/1046338561387008070/image.png?width=839&height=291)
+
+
 ## CIDR
 
 Berikut adalah langkah langkah yang dilakukan dalam mengkombinasikan subnet untuk CIDR:
